@@ -1,0 +1,307 @@
+https://github.com/waffamalki01/tugasgit1
+Welcome to Termux!
+
+Wiki:            https://wiki.termux.com
+Community forum: https://termux.com/community
+Gitter chat:     https://gitter.im/termux/termux
+IRC channel:     #termux on freenode
+
+Working with packages:
+
+ * Search packages:   pkg search <query>
+ * Install a package: pkg install <package>
+ * Upgrade packages:  pkg upgrade
+
+Subscribing to additional repositories:
+
+ * Root:     pkg install root-repo
+ * Unstable: pkg install unstable-repo
+ * X11:      pkg install x11-repo
+
+Report issues at https://termux.com/issues
+
+$ ls -F1
+$ HEAD
+HEAD: command not found
+$ config*
+No command config* found, did you mean:
+ Command ifconfig in package net-tools
+ Command iwconfig in package wireless-tools from the root-repo repository
+$ description
+description: command not found
+$ hooks/
+bash: hooks/: No such file or directory
+$ info/
+bash: info/: No such file or directory
+$ objects/
+bash: objects/: No such file or directory
+$ refs/
+bash: refs/: No such file or directory
+$ git status
+The program git is not installed. Install it by executing:
+ pkg install git
+$ On branch master
+No command On found, did you mean:
+ Command ln in package coreutils
+ Command sn in package tin-summer
+$ Changes to be committed:
+No command Changes found, did you mean:
+ Command ranger in package ranger
+$   (use "git reset HEAD <file>..." to unstage)No command use found, did you mean:
+ Command bsh in package beanshell
+ Command as in package binutils
+ Command ls in package coreutils
+ Command sh in package dash
+ Command ssh in package dropbear
+ Command dte in package dte
+ Command gs in package ghostscript
+ Command joe in package joe
+ Command joe in package jupp
+ Command ksu in package krb5
+ Command psl in package libpsl
+ Command ksh in package loksh
+ Command pee in package moreutils
+ Command uz in package mtools
+ Command tset in package ncurses
+ Command toe in package ncurses-utils
+ Command ne in package ne
+ Command ssh in package openssh
+ Command sem in package parallel
+ Command ode in package plotutils from the x11-repo repository
+ Command ps in package procps
+ Command gie in package proj
+ Command fuser in package psmisc
+ Command uic in package qt5-base from the x11-repo repository
+ Command sv in package runit
+ Command rush in package rush
+ Command psc in package sc
+ Command sed in package sed
+ Command sl in package sl
+ Command gst in package smalltalk from the unstable-repo repository
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw from the unstable-repo repository
+ Command ts in package task-spooler
+ Command su in package termux-tools
+ Command tie in package texlive-bin
+ Command sn in package tin-summer
+ Command tsu in package tsu
+ Command uget in package uget from the x11-repo repository
+ Command ul in package util-linux
+ Command uux in package uucp
+ Command xsel in package xsel from the x11-repo repository
+ Command zsh in package zsh
+$
+$     new file:   README
+The program new is not installed. Install it by executing:
+ pkg install nmh, after running pkg in unstable-repo
+$
+$ Changes not staged for commit:
+No command Changes found, did you mean:
+ Command ranger in package ranger
+$   (use "git add <file>..." to update what will be committed)
+No command use found, did you mean:
+ Command bsh in package beanshell
+ Command as in package binutils
+ Command ls in package coreutils
+ Command sh in package dash
+ Command ssh in package dropbear
+ Command dte in package dte
+ Command gs in package ghostscript
+ Command joe in package joe
+ Command joe in package jupp
+ Command ksu in package krb5
+ Command psl in package libpsl
+ Command ksh in package loksh
+ Command pee in package moreutils
+ Command uz in package mtools
+ Command tset in package ncurses
+ Command toe in package ncurses-utils
+ Command ne in package ne
+ Command ssh in package openssh
+ Command sem in package parallel
+ Command ode in package plotutils from the x11-repo repository
+ Command ps in package procps
+ Command gie in package proj
+ Command fuser in package psmisc
+ Command uic in package qt5-base from the x11-repo repository
+ Command sv in package runit
+ Command rush in package rush
+ Command psc in package sc
+ Command sed in package sed
+ Command sl in package sl
+ Command gst in package smalltalk from the unstable-repo repository
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw from the unstable-repo repository
+ Command ts in package task-spooler
+ Command su in package termux-tools
+ Command tie in package texlive-bin
+ Command sn in package tin-summer
+ Command tsu in package tsu
+ Command uget in package uget from the x11-repo repository
+ Command ul in package util-linux
+ Command uux in package uucp
+ Command xsel in package xsel from the x11-repo repository
+ Command zsh in package zsh
+$   (use "git checkout -- <file>..." to discard changes in working directory)
+No command use found, did you mean:
+ Command bsh in package beanshell
+ Command as in package binutils
+ Command ls in package coreutils
+ Command sh in package dash
+ Command ssh in package dropbear
+ Command dte in package dte
+ Command gs in package ghostscript
+ Command joe in package joe
+ Command joe in package jupp
+ Command ksu in package krb5
+ Command psl in package libpsl
+ Command ksh in package loksh
+ Command pee in package moreutils
+ Command uz in package mtools
+ Command tset in package ncurses
+ Command toe in package ncurses-utils
+ Command ne in package ne
+ Command ssh in package openssh
+ Command sem in package parallel
+ Command ode in package plotutils from the x11-repo repository
+ Command ps in package procps
+ Command gie in package proj
+ Command fuser in package psmisc
+ Command uic in package qt5-base from the x11-repo repository
+ Command sv in package runit
+ Command rush in package rush
+ Command psc in package sc
+ Command sed in package sed
+ Command sl in package sl
+ Command gst in package smalltalk from the unstable-repo repository
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw from the unstable-repo repository
+ Command ts in package task-spooler
+ Command su in package termux-tools
+ Command tie in package texlive-bin
+ Command sn in package tin-summer
+ Command tsu in package tsu
+ Command uget in package uget from the x11-repo repository
+ Command ul in package util-linux
+ Command uux in package uucp
+ Command xsel in package xsel from the x11-repo repository
+ Command zsh in package zsh
+$
+$   (use "git checkout -- <file>..." to discard changes in working directory)
+No command use found, did you mean:
+ Command bsh in package beanshell
+ Command as in package binutils
+ Command ls in package coreutils
+ Command sh in package dash
+ Command ssh in package dropbear
+ Command dte in package dte
+ Command gs in package ghostscript
+ Command joe in package joe
+ Command joe in package jupp
+ Command ksu in package krb5
+ Command psl in package libpsl
+ Command ksh in package loksh
+ Command pee in package moreutils
+ Command uz in package mtools
+ Command tset in package ncurses
+ Command toe in package ncurses-utils
+ Command ne in package ne
+ Command ssh in package openssh
+ Command sem in package parallel
+ Command ode in package plotutils from the x11-repo repository
+ Command ps in package procps
+ Command gie in package proj
+ Command fuser in package psmisc
+ Command uic in package qt5-base from the x11-repo repository
+ Command sv in package runit
+ Command rush in package rush
+ Command psc in package sc
+ Command sed in package sed
+ Command sl in package sl
+ Command gst in package smalltalk from the unstable-repo repository
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw from the unstable-repo repository
+ Command ts in package task-spooler
+ Command su in package termux-tools
+ Command tie in package texlive-bin
+ Command sn in package tin-summer
+ Command tsu in package tsu
+ Command uget in package uget from the x11-repo repository
+ Command ul in package util-linux
+ Command uux in package uucp
+ Command xsel in package xsel from the x11-repo repository
+ Command zsh in package zsh
+$ git add README
+The program git is not installed. Install it by executing:
+ pkg install git
+$ git status -s
+The program git is not installed. Install it by executing:
+ pkg install git
+$  M README
+No command M found, did you mean:
+ Command [ in package coreutils
+ Command k in package kona
+ Command o in package o
+ Command o in package o-editor
+ Command v in package vlang from the unstable-repo repository
+$ MM Rakefile
+No command MM found, did you mean:
+ Command ab in package apache2
+ Command at in package at from the unstable-repo repository
+ Command bc in package bc
+ Command ar in package binutils
+ Command cc in package clang
+ Command [ in package coreutils
+ Command lp in package cups from the unstable-repo repository
+ Command sh in package dash
+ Command dx in package dx
+ Command ed in package ed
+ Command ef in package electric-fence
+ Command fd in package fd
+ Command dl in package gatling
+ Command gh in package gh
+ Command gs in package ghostscript
+ Command go in package golang
+ Command gm in package graphicsmagick
+ Command gc in package graphviz
+ Command i3 in package i3 from the x11-repo repository
+ Command iw in package iw from the root-repo repository
+ Command jo in package jo
+ Command jq in package jq
+ Command k in package kona
+ Command lf in package lf
+ Command m4 in package m4
+ Command mc in package mc
+ Command mg in package mg
+ Command ts in package moreutils
+ Command lz in package mtools
+ Command mu in package mu
+ Command mr in package myrepos
+ Command ne in package ne
+ Command nc in package netcat
+ Command nu in package nushell
+ Command o in package o
+ Command o in package o-editor
+ Command 7z in package p7zip
+ Command ps in package procps
+ Command pv in package pv
+ Command r2 in package radare2
+ Command ci in package rcs
+ Command rc in package rcshell
+ Command rg in package ripgrep
+ Command ri in package ruby-ri
+ Command sv in package runit
+ Command sc in package sc
+ Command ag in package silversearcher-ag
+ Command sl in package sl
+ Command st in package st from the x11-repo repository
+ Command sr in package surfraw from the unstable-repo repository
+ Command ts in package task-spooler
+ Command am in package termux-am
+ Command df in package termux-tools
+ Command ht in package texlive-bin
+ Command sn in package tin-summer
+ Command tf in package tinyfugue
+ Command ul in package util-linux
+ Command cu in package uucp
+ Command vi in package vim
